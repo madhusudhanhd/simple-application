@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
     @GetMapping("/getWelcomeMessage")
     public String getWelcomeMessage(){
-        return "Welcome to Student Application";
+        return "Welcome to Student Application!!!!";
     }
 }
