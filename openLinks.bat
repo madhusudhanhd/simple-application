@@ -1,3 +1,3 @@
 @echo off
-start=https://start.spring.io/
-start=https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
+start=http://localhost:8761/
+start=http://localhost:9090/management-dashboard/swagger-ui

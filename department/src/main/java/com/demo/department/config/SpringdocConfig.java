@@ -18,9 +18,9 @@ public class SpringdocConfig {
     @Bean
     public OpenAPI baseOpenAPI(){
 
-        ApiResponse badRequestApi = new ApiResponse().content(new Content().addMediaType(MediaType.APPLICATION_JSON_VALUE,
+        /*ApiResponse badRequestApi = new ApiResponse().content(new Content().addMediaType(MediaType.APPLICATION_JSON_VALUE,
                 new io.swagger.v3.oas.models.media.MediaType().addExamples("default",
-                        new Example().value(""))));
+                        new Example().value(""))));*/
 
         return new OpenAPI().info(new Info().title("Spring Doc")
                 .version("1.0.0")
