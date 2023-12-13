@@ -4,6 +4,13 @@
 
 # docker run -p 9761:8761 service-registry
 
+#Port Details
+student-service - 8081
+department-service - 8082
+
+
+docker run -d -p 9411:9411 openzipkin/zipkin
+
 
 docker tag service-registry:latest madhusudhanhd/simpleapplication:ServiceRegistry
 docker push madhusudhanhd/simpleapplication:ServiceRegistry
