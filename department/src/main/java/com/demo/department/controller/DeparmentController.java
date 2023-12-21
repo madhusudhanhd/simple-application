@@ -1,9 +1,8 @@
-package com.demo.department.Controller;
+package com.demo.department.controller;
 
 import com.demo.department.model.Department;
 import com.demo.department.repository.DepartmentRepo;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.info.Contact;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
